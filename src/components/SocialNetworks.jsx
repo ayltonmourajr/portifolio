@@ -3,7 +3,7 @@ import {FaLinkedinIn, FaGithub, FaInstagram} from "react-icons/fa"
 import '../styles/components/socialNetworks.sass'
 
 const socialNetworks = [
-    {name: "linkedin", icon: <FaLinkedinIn />, link:"https://www."},
+    {name: "linkedin", icon: <FaLinkedinIn />},
     {name: "github", icon: <FaGithub />},
     {name: "instagram", icon: <FaInstagram />},
 ]
@@ -21,3 +21,7 @@ const SocialNetworks = () => {
 }
 
 export default SocialNetworks
+
+// , link:"https://www.linkedin.com/in/ayltonmourajunior/"
+// , link:"https://github.com/ayltonmourajr"
+// , link:"https://www.instagram.com/ayltonmjr/"
